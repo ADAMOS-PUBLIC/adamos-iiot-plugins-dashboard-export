@@ -1,0 +1,20 @@
+{
+  "name": "Dashboard Utils",
+  "description": "Enables the export and import of dashboards using zip archives",
+  "category": "Utils",
+  "imports": [],
+  "ngModules": [
+    "c8y.enhanced.dashboardUtils"
+  ],
+  "js": [
+    "node_modules/jszip/dist/jszip.min.js",
+    "dashboardUtils.module.js",
+    "dashboardUtils.config.js",
+    "dashboardUtils.constants.js",
+    "dashboardUtils.service.js",
+    "modals/dashboardUpload.component.js",
+    "modals/dashboardImportConfig.component.js"
+  ],
+  "css": [],
+  "copy": []
+}

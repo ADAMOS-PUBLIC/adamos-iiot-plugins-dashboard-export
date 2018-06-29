@@ -1,0 +1,28 @@
+<div>
+  <div class="modal-header text-center">
+    <h3 translate>Import dashboard</h3>
+  </div>
+
+  <div class="c8y-wizard-nav">
+      <i c8y-icon="upload"></i>
+    <span translate>Upload dashboard ZIP</span>
+  </div>
+
+  <div class="modal-body container">
+    <div class="col-md-4 col-md-offset-1">
+      <file-picker
+        files="vm.files"
+        multiple="false"
+        required="true"
+        data-disabled="vm.processingStatus.inProgress" display-drop-zone="true"
+        drop-zone-label="'Upload file' | translate" processing-status="vm.processingStatus"
+        on-file-selected="vm.analyseDashboardZip(vm.files[0].file)"
+        allowed-file-type="vm.supportedFileTypes">
+      </file-picker>
+    </div>
+  </div>
+
+  <div class="c8y-wizard-footer">
+    <button class="btn btn-danger" ng-click="vm.dismiss()" translate>Cancel</button>
+  </div>
+</div>

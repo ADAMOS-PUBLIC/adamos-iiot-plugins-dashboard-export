@@ -1,0 +1,12 @@
+{
+  "name": "cumulocity-enhanced-ui",
+  "availability": "PRIVATE",
+  "contextPath": "cumulocity-enhanced-ui",
+  "key": "cumulocity-enhanced-ui-appkey",
+  "resourcesUrl": "/",
+  "type": "HOSTED",
+  "tabsHorizontal": true,
+  "imports": [
+    "core/c8yBranding"
+  ]
+}

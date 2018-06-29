@@ -1,0 +1,31 @@
+{
+  "name": "cumulocity-enhanced-ui",
+  "version": "1.0.0",
+  "description": "Additions to Cumulocity default applications",
+  "dependencies": {
+    "cumulocity-ui-build": "http://resources.cumulocity.com/webapps/ui/8.19.16.tar.gz",
+    "jszip": "^3.1.5"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-angular": "^0.5.0",
+    "eslint-plugin-angular": "^3.3.0",
+    "eslint-plugin-lodash": "^2.7.0",
+    "babel-core": "6.26.0",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-preset-env": "1.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TyrManuZ/cumulocity-enhanced-ui.git"
+  },
+  "author": "Tobias Sommer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TyrManuZ/cumulocity-enhanced-ui/issues"
+  },
+  "homepage": "https://github.com/TyrManuZ/cumulocity-enhanced-ui#readme"
+}
